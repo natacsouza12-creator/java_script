@@ -1,6 +1,15 @@
 let nomeUsuario = "Caldera";
 //alert: popup web
-console.log("Visão, "+nomeUsuario)
+console.log("Visão, "+nomeUsuario);
+
+const pi = 3.14; //
+console.log("Pi = "+pi);
+
+//template literals:Resume a frase
+let idade = 19;
+let cidade = "Resende - RJ"
+console.log("Visão, meu nome é "+nomeUsuario + ", tenho " +idade+ " anos e moro em "+cidade)
+console.log (`Visão, meu nome é ${nomeUsuario}, tenho ${idade}, anos e moro em ${cidade} `)
 
 //Comentrio 1 linha
 /* Comentarios
