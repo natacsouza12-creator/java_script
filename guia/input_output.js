@@ -1,0 +1,24 @@
+let nomeUsuario = "Caldera";
+//alert: popup web
+console.log("Visão, "+nomeUsuario);
+
+const pi = 3.14; //
+console.log("Pi = "+pi);
+
+//template literals:Resume a frase
+let idade = 19;
+let cidade = "Resende - RJ"
+console.log("Visão, meu nome é "+nomeUsuario + ", tenho " +idade+ " anos e moro em "+cidade)
+console.log (`Visão, meu nome é ${nomeUsuario}, tenho ${idade} anos e moro em ${cidade} `)
+
+//Comentrio 1 linha  
+/* Comentarios
+com varias linhas */
+
+//var,let e cont
+/*VAriaveis são nomes simbolicos que apontam para 
+espaços ma memoria do computador, usados para armazenar dados
+let: declaro variavel limitando o escopo no bloco, instruçao. Variavel limitada 
+var: Variavel global, pode ser acessada de qualquer lugar do programa
+const: contante - algo fixo. Ex.: Pi
+*/
